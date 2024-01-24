@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}  
+
+/* costum style */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(40 46 43);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Heading */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.main{
+    margin: 40px auto;
+}
+
+header h1{
+    color: rgb(255 255 255);
+    font-size: 48px;
+    font-family: 'Source Serif 4', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 40px;
+    text-shadow: 0 5px 12px rgba(8, 8, 8, 0.93);   
+}
+
+.active{
+   font-size: x-large;
+   color: rgb(255 4 72);
+   font-weight: 600;
+}
+
+.date{
+    font-size: x-large;
+   color: hsl(0deg 0% 100%);
+   font-weight: 600;
+}
+
+.article{
+    margin-top: 40px;
+}
+
+.article p{
+    color: hsl(42.86deg 19.34% 64.51%);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.article-para{
+    margin: 20px 0;
+}
+
+.section h2{
+    color: rgb(255 255 255);
+    font-size: 48px;
+    font-family: Roboto;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 40px;
+    text-shadow: 4px 5px 2px rgba(8, 8, 8, 0.93);
+}
